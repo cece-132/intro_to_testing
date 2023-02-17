@@ -14,6 +14,10 @@
   </ol>
 </details>
 
+## Reflection
+
+Easy review on testing and red, green, refactor. 
+
 ## Overview
 
 Test Driven Development is a powerful tool used to drive your code. At Turing, TDD will be essential.
