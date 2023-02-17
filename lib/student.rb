@@ -5,5 +5,9 @@ class Student
     @name = name
     @cookies = []
   end
+
+  def add_cookie(cookie)
+    @cookies << cookie
+  end
   
 end

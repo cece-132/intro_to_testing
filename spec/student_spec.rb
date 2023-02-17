@@ -16,7 +16,12 @@ describe Student do
 
   describe '#add_cookies' do
     it 'can add cookies to array' do
-      
+      student = Student.new('Penelope')
+
+      student.add_cookie('Chocolate Chunk')
+      student.add_cookie('Snickerdoodle')
+
+      expect(student.cookies).to eq ["Chocolate Chunk", "Snickerdoodle"]
     end
   end
 end
